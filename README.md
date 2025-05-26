@@ -5,7 +5,7 @@ PureWord is a Chrome extension that automatically filters offensive language on 
 ## Key Features
 
 - **Automatic Content Filtering**: Scans webpages for offensive language and replaces it with appropriate alternatives
-- **Visual Cues**: Optional highlighting of replaced words so you know what has been filtered
+- **Visual Cues**: Optional highlighting of replaced words so you know what's been filtered
 - **Page-Specific Controls**: Easily toggle filtering on/off for specific websites
 - **Customization**: Modify replacement words list via the options page
 - **Dark Mode Support**: Compatible with both light and dark browsing experiences
@@ -34,14 +34,14 @@ PureWord is a Chrome extension that automatically filters offensive language on 
 
 ## Privacy
 
-PureWord operates entirely within your browser and does not:
+PureWord operates entirely within your browser and doesn't:
 - Collect personal information
 - Track your browsing history
 - Send data to remote servers
 
 ## Support
 
-If you find PureWord useful, consider supporting continued development through the donation button in the extension.
+If you find PureWord useful, consider [supporting](https://www.paypal.com/donate/?hosted_button_id=N75RNKG8WRQSL) continued development.
 
 ## License
 
