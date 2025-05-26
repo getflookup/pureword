@@ -16,13 +16,6 @@ PureWord is a Chrome extension that automatically filters offensive language on 
 1. Visit the [PureWord Chrome Web Store page](#)
 2. Click "Add to Chrome" to install the extension
 
-### For Development:
-1. Download or clone the repository
-2. Open Chrome and go to `chrome://extensions/`
-3. Enable "Developer mode" in the top-right corner
-4. Click "Load unpacked" and select the `chrome-extension` directory
-5. The extension is now installed and ready to use
-
 ## Usage
 
 - Click the PureWord icon in your Chrome toolbar
