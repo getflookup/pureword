@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>PureWord Chrome Extension</title>
@@ -14,30 +15,35 @@
             margin: 0;
             padding: 0;
         }
+
         .container {
             max-width: 700px;
             margin: 60px auto 0 auto;
             background: #23272c;
             border-radius: 12px;
-            box-shadow: 0 4px 24px rgba(33,150,243,0.07);
+            box-shadow: 0 4px 24px rgba(33, 150, 243, 0.07);
             padding: 40px 30px 30px 30px;
         }
+
         h1 {
             color: #64B5F6;
             margin-top: 0;
             font-size: 2.2em;
             letter-spacing: 1px;
         }
+
         p {
             font-size: 1.15em;
             margin-bottom: 2em;
         }
+
         .links {
             display: flex;
             flex-direction: column;
             gap: 18px;
             margin-bottom: 2em;
         }
+
         .links a {
             display: inline-block;
             background: #1565c0;
@@ -47,13 +53,15 @@
             padding: 14px 28px;
             border-radius: 6px;
             font-size: 1.1em;
-            box-shadow: 0 2px 8px rgba(33,150,243,0.07);
+            box-shadow: 0 2px 8px rgba(33, 150, 243, 0.07);
             transition: background 0.2s, box-shadow 0.2s;
         }
+
         .links a:hover {
             background: #2196F3;
-            box-shadow: 0 4px 16px rgba(33,150,243,0.13);
+            box-shadow: 0 4px 16px rgba(33, 150, 243, 0.13);
         }
+
         .footer {
             font-size: 0.97em;
             color: #aaa;
@@ -62,19 +70,24 @@
             margin-top: 2.5em;
             text-align: center;
         }
+
         a {
             color: #90caf9;
         }
+
         a:hover {
             color: #fff;
         }
+
         @media (max-width: 600px) {
             .container {
                 padding: 20px 8px 18px 8px;
             }
+
             h1 {
                 font-size: 1.4em;
             }
+
             .links a {
                 font-size: 1em;
                 padding: 12px 10px;
@@ -82,9 +95,10 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
-        <h1>PureWord Extension – Official Policy</h1>
+        <h1>PureWord Extension | Official Policy</h1>
         <p>
             Welcome to the official policy page for the <strong>PureWord</strong> browser extension.<br>
             Here you can find our latest Privacy Policy and Terms of Service. We are committed to transparency and your privacy.
@@ -93,12 +107,16 @@
             <a href="privacy-policy.html">Privacy Policy</a>
             <a href="terms-of-service.html">Terms of Service</a>
         </div>
+        <div class="commentsy-comments-container" style="text-align:center;">
+            <img src="https://img.shields.io/chrome-web-store/v/hmiminkcebjakilaojndngoocckkelec" alt="Chrome Web Store Version" style="height:30px;">
+        </div>
         <div class="footer">
             &copy; <span id="year"></span> PureWord Extension. Released under the <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT License</a>.
-            </div>
+        </div>
     </div>
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
 </body>
+
 </html>
