@@ -1,112 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>PureWord Chrome Extension</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Official policy documents for the PureWord browser extension.">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Official policy documents for the PureWord browser extension." />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <script src="canonical-handler.js"></script>
     <style>
-        body {
-            font-family: 'Segoe UI', Arial, sans-serif;
-            background: #181c20;
-            color: #f7f7f7;
-            margin: 0;
-            padding: 0;
-        }
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: #181c20;
+        color: #f7f7f7;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 700px;
+        margin: 60px auto 0 auto;
+        background: #23272c;
+        border-radius: 12px;
+        box-shadow: 0 4px 24px rgba(33, 150, 243, 0.07);
+        padding: 40px 30px 30px 30px;
+      }
+      h1 {
+        color: #64b5f6;
+        margin-top: 0;
+        font-size: 2.2em;
+        letter-spacing: 1px;
+      }
+      p {
+        font-size: 1.15em;
+        margin-bottom: 2em;
+      }
+      .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 18px;
+        margin-bottom: 2em;
+      }
+      .links a {
+        display: inline-block;
+        background: #1565c0;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 14px 28px;
+        border-radius: 6px;
+        font-size: 1.1em;
+        box-shadow: 0 2px 8px rgba(33, 150, 243, 0.07);
+        transition: background 0.2s, box-shadow 0.2s;
+        min-width: 160px;
+        text-align: center;
+      }
+      .links a:hover {
+        background: #2196f3;
+        box-shadow: 0 4px 16px rgba(33, 150, 243, 0.13);
+      }
+      .footer {
+        font-size: 0.97em;
+        color: #aaa;
+        border-top: 1px solid #333;
+        padding-top: 1.5em;
+        margin-top: 2.5em;
+        text-align: center;
+      }
+      a {
+        color: #90caf9;
+      }
+      a:hover {
+        color: #fff;
+      }
+      @media (max-width: 600px) {
         .container {
-            max-width: 700px;
-            margin: 60px auto 0 auto;
-            background: #23272c;
-            border-radius: 12px;
-            box-shadow: 0 4px 24px rgba(33,150,243,0.07);
-            padding: 40px 30px 30px 30px;
+          padding: 20px 8px 18px 8px;
         }
         h1 {
-            color: #64B5F6;
-            margin-top: 0;
-            font-size: 2.2em;
-            letter-spacing: 1px;
-        }
-        p {
-            font-size: 1.15em;
-            margin-bottom: 2em;
-        }
-        .links {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 18px;
-            margin-bottom: 2em;
+          font-size: 1.4em;
         }
         .links a {
-            display: inline-block;
-            background: #1565c0;
-            color: #fff;
-            text-decoration: none;
-            font-weight: 500;
-            padding: 14px 28px;
-            border-radius: 6px;
-            font-size: 1.1em;
-            box-shadow: 0 2px 8px rgba(33,150,243,0.07);
-            transition: background 0.2s, box-shadow 0.2s;
-            min-width: 160px;
-            text-align: center; 
+          font-size: 1em;
+          padding: 12px 10px;
         }
-        .links a:hover {
-            background: #2196F3;
-            box-shadow: 0 4px 16px rgba(33,150,243,0.13);
-        }
-        .footer {
-            font-size: 0.97em;
-            color: #aaa;
-            border-top: 1px solid #333;
-            padding-top: 1.5em;
-            margin-top: 2.5em;
-            text-align: center;
-        }
-        a {
-            color: #90caf9;
-        }
-        a:hover {
-            color: #fff;
-        }
-        @media (max-width: 600px) {
-            .container {
-                padding: 20px 8px 18px 8px;
-            }
-            h1 {
-                font-size: 1.4em;
-            }
-            .links a {
-                font-size: 1em;
-                padding: 12px 10px;
-            }
-        }
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1>PureWord Extension | Official Policy</h1>
-        <p>
-            Welcome to the official policy page for the <strong>PureWord</strong> browser extension.<br>
-            Here you can find our latest Privacy Policy and Terms of Service. We are committed to transparency and your privacy.
-        </p>
-        <div class="links">
-            <a href="privacy-policy.html">Privacy Policy</a>
-            <a href="terms-of-service.html">Terms of Service</a>
-        </div>
-        <div class="commentsy-comments-container" style="text-align:center;">
+      <h1>PureWord Extension | Official Policy</h1>
+      <p>
+        Welcome to the official policy page for the <strong>PureWord</strong> browser extension.<br />
+        Here you can find our latest Privacy Policy and Terms of Service. We are committed to transparency and your privacy.
+      </p>
+      <div class="links">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-service.html">Terms of Service</a>
+      </div>
+      <div class="commentsy-comments-container" style="text-align: center">
         <a href="https://chrome.google.com/webstore/detail/hmiminkcebjakilaojndngoocckkelec" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.shields.io/chrome-web-store/v/hmiminkcebjakilaojndngoocckkelec?label=Chrome%20Web%20Store&style=flat&logo=googlechrome" alt="Chrome Web Store" height="30">
+          <img
+            src="https://img.shields.io/chrome-web-store/v/hmiminkcebjakilaojndngoocckkelec?label=Chrome%20Web%20Store&style=flat&logo=googlechrome"
+            alt="Chrome Web Store"
+            height="30"
+          />
         </a>
-        </div>
-        <div class="footer">
-            &copy; <span id="year"></span> PureWord Extension. Released under the <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT License</a>.
-            </div>
+      </div>
+      <div class="footer">
+        &copy; <span id="year"></span> PureWord Extension. Released under the
+        <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT License</a>.
+      </div>
     </div>
     <script>
-        document.getElementById('year').textContent = new Date().getFullYear();
+      document.getElementById("year").textContent = new Date().getFullYear();
     </script>
-</body>
+  </body>
 </html>

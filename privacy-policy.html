@@ -1,113 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Privacy Policy for PureWord</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <script src="canonical-handler.js"></script>
     <style>
-        body {
-            font-family: 'Segoe UI', Arial, sans-serif;
-            background: #181c20;
-            color: #f7f7f7;
-            margin: 0;
-            padding: 0;
-        }
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: #181c20;
+        color: #f7f7f7;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 700px;
+        margin: 60px auto 0 auto;
+        background: #23272c;
+        border-radius: 12px;
+        box-shadow: 0 4px 24px rgba(33, 150, 243, 0.07);
+        padding: 40px 30px 30px 30px;
+      }
+      h1 {
+        color: #64b5f6;
+        margin-top: 0;
+        font-size: 2.2em;
+        letter-spacing: 1px;
+      }
+      h2 {
+        color: #90caf9;
+        margin-top: 2em;
+      }
+      a {
+        color: #90caf9;
+      }
+      a:hover {
+        color: #fff;
+      }
+      .section {
+        margin-bottom: 2em;
+      }
+      .footer-license {
+        font-size: 0.95em;
+        color: #aaa;
+        border-top: 1px solid #333;
+        padding-top: 1em;
+        margin-top: 2em;
+      }
+      @media (max-width: 600px) {
         .container {
-            max-width: 700px;
-            margin: 60px auto 0 auto;
-            background: #23272c;
-            border-radius: 12px;
-            box-shadow: 0 4px 24px rgba(33,150,243,0.07);
-            padding: 40px 30px 30px 30px;
+          padding: 20px 8px 18px 8px;
         }
         h1 {
-            color: #64B5F6;
-            margin-top: 0;
-            font-size: 2.2em;
-            letter-spacing: 1px;
+          font-size: 1.4em;
         }
-        h2 {
-            color: #90caf9;
-            margin-top: 2em;
-        }
-        a {
-            color: #90caf9;
-        }
-        a:hover {
-            color: #fff;
-        }
-        .section {
-            margin-bottom: 2em;
-        }
-        .footer-license {
-            font-size: 0.95em;
-            color: #aaa;
-            border-top: 1px solid #333;
-            padding-top: 1em;
-            margin-top: 2em;
-        }
-        @media (max-width: 600px) {
-            .container {
-                padding: 20px 8px 18px 8px;
-            }
-            h1 {
-                font-size: 1.4em;
-            }
-        }
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1>Privacy Policy</h1>
-        <div class="section">
-            <p><strong>Effective Date:</strong> <span id="date"></span></p>
-            <script>
-                document.getElementById('date').textContent = new Date().toISOString().split('T')[0];
-            </script>
-        </div>
-        <div class="section">
-            <h2>Introduction</h2>
-            <p>
-                PureWord is a browser extension designed to filter and replace offensive language on web pages, providing a cleaner and more comfortable browsing experience. We value your privacy and are committed to protecting your personal information.
-            </p>
-        </div>
-        <div class="section">
-            <h2>Information We Do <u>Not</u> Collect</h2>
-            <ul>
-                <li>We do <strong>not</strong> collect or store any personal information.</li>
-                <li>We do <strong>not</strong> track your browsing history or activity.</li>
-                <li>We do <strong>not</strong> transmit any data to external servers.</li>
-                <li>All filtering and processing occurs locally in your browser.</li>
-            </ul>
-        </div>
-        <div class="section">
-            <h2>Permissions</h2>
-            <p>
-                PureWord requires certain browser permissions (such as access to web page content) solely to perform its filtering functionality. These permissions are used exclusively for the extension's operation and never for data collection or tracking.
-            </p>
-        </div>
-        <div class="section">
-            <h2>Third-Party Services</h2>
-            <p>
-                PureWord does not use third-party analytics, advertising, or tracking services.
-            </p>
-        </div>
-        <div class="section">
-            <h2>Changes to This Policy</h2>
-            <p>
-                We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date.
-            </p>
-        </div>
-        <div class="section">
-            <h2>Contact</h2>
-            <p>
-                If you have any questions or concerns about this Privacy Policy, please contact us at <a href="https://x.com/getflookup" target="_blank" rel="noopener">https://x.com/getflookup</a>.
-            </p>
-        </div>
-        <div class="footer-license">
-            <strong>License:</strong> This extension and its documentation are released under the <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT License</a>.
-        </div>
+      <h1>Privacy Policy</h1>
+      <div class="section">
+        <p><strong>Effective Date:</strong> <span id="date"></span></p>
+        <script>
+          document.getElementById("date").textContent = new Date().toISOString().split("T")[0];
+        </script>
+      </div>
+      <div class="section">
+        <h2>Introduction</h2>
+        <p>
+          PureWord is a browser extension designed to filter and replace offensive language on web pages, providing a cleaner and more comfortable
+          browsing experience. We value your privacy and are committed to protecting your personal information.
+        </p>
+      </div>
+      <div class="section">
+        <h2>Information We Do <u>Not</u> Collect</h2>
+        <ul>
+          <li>We do <strong>not</strong> collect or store any personal information.</li>
+          <li>We do <strong>not</strong> track your browsing history or activity.</li>
+          <li>We do <strong>not</strong> transmit any data to external servers.</li>
+          <li>All filtering and processing occurs locally in your browser.</li>
+        </ul>
+      </div>
+      <div class="section">
+        <h2>Permissions</h2>
+        <p>
+          PureWord requires certain browser permissions (such as access to web page content) solely to perform its filtering functionality. These
+          permissions are used exclusively for the extension's operation and never for data collection or tracking.
+        </p>
+      </div>
+      <div class="section">
+        <h2>Third-Party Services</h2>
+        <p>PureWord does not use third-party analytics, advertising, or tracking services.</p>
+      </div>
+      <div class="section">
+        <h2>Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date.</p>
+      </div>
+      <div class="section">
+        <h2>Contact</h2>
+        <p>
+          If you have any questions or concerns about this Privacy Policy, please contact us at
+          <a href="https://x.com/getflookup" target="_blank" rel="noopener">https://x.com/getflookup</a>.
+        </p>
+      </div>
+      <div class="footer-license">
+        <strong>License:</strong> This extension and its documentation are released under the
+        <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT License</a>.
+      </div>
     </div>
-</body>
+  </body>
 </html>
