@@ -13,7 +13,7 @@ PureWord is a Chrome extension that automatically filters offensive language on 
 ## Installation
 
 ### From Chrome Web Store:
-1. Visit the <a href="https://chromewebstore.google.com/detail/hmiminkcebjakilaojndngoocckkelec" target="_blank" rel="noopener">PureWord Chrome Web Store page</a>
+1. Visit the <a href="#" target="_blank" rel="noopener">PureWord Chrome Web Store page</a>
 2. Click "Add to Chrome" to install the extension
 
 ## Usage
