@@ -1,0 +1,22 @@
+{
+  "description": "PureWord filter-list index. English is the community-edited list at filters/pureword-word-pairs.json and is deliberately not listed here. Every other language is listed below. Anyone may edit these files; installed extensions pick up changes automatically within about 3 days, with no new release required.",
+  "version": 4,
+  "langs": {
+    "es": { "file": "es.json", "experimental": false },
+    "de": { "file": "de.json", "experimental": false },
+    "vi": { "file": "vi.json", "experimental": false },
+    "fr": { "file": "fr.json", "experimental": false },
+    "pt": { "file": "pt.json", "experimental": false },
+    "pl": { "file": "pl.json", "experimental": false },
+    "zh": { "file": "zh.json", "experimental": false },
+    "ru": { "file": "ru.json", "experimental": false },
+    "nl": { "file": "nl.json", "experimental": false },
+    "it": { "file": "it.json", "experimental": false },
+    "tr": { "file": "tr.json", "experimental": false },
+    "ar": { "file": "ar.json", "experimental": false },
+    "id": { "file": "id.json", "experimental": false },
+    "ja": { "file": "ja.json", "experimental": false },
+    "ko": { "file": "ko.json", "experimental": false },
+    "hi": { "file": "hi.json", "experimental": false }
+  }
+}
