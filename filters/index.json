@@ -1,5 +1,5 @@
 {
-  "description": "PureWord filter-list index. English is the community-edited list at filters/pureword-word-pairs.json and is deliberately not listed here. Every other language is listed below.",
+  "description": "PureWord filter-list index. English is the community-edited list at filters/en.json and is deliberately not listed here. Every other language is listed below.",
   "version": 4,
   "langs": {
     "es": { "file": "es.json", "experimental": false },
